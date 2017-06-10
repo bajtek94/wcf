@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/MyService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/MyService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="CompositeType">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BoolValue" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ListOfConnection" nillable="true" type="tns:ArrayOfTrainConnection" />
+      <xs:element minOccurs="0" name="StringValue" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CompositeType" nillable="true" type="tns:CompositeType" />
+  <xs:complexType name="ArrayOfTrainConnection">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TrainConnection" nillable="true" type="tns:TrainConnection" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTrainConnection" nillable="true" type="tns:ArrayOfTrainConnection" />
+  <xs:complexType name="TrainConnection">
+    <xs:sequence>
+      <xs:element name="_x003C_City1_x003E_k__BackingField" nillable="true" type="xs:string" />
+      <xs:element name="_x003C_City2_x003E_k__BackingField" nillable="true" type="xs:string" />
+      <xs:element name="_x003C_EndTime_x003E_k__BackingField" type="xs:dateTime" />
+      <xs:element name="_x003C_StartTime_x003E_k__BackingField" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TrainConnection" nillable="true" type="tns:TrainConnection" />
+</xs:schema>

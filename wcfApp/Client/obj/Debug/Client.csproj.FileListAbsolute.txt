@@ -1,0 +1,6 @@
+C:\Studia_MyApps\RSO\wcf\App\wcfApp\Client\bin\Debug\Client.exe.config
+C:\Studia_MyApps\RSO\wcf\App\wcfApp\Client\bin\Debug\Client.exe
+C:\Studia_MyApps\RSO\wcf\App\wcfApp\Client\bin\Debug\Client.pdb
+C:\Studia_MyApps\RSO\wcf\App\wcfApp\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Studia_MyApps\RSO\wcf\App\wcfApp\Client\obj\Debug\Client.exe
+C:\Studia_MyApps\RSO\wcf\App\wcfApp\Client\obj\Debug\Client.pdb

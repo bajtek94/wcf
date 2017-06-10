@@ -1,0 +1,6 @@
+C:\Studia_MyApps\RSO\wcf\App\wcfApp\MyService\bin\Debug\MyService.dll.config
+C:\Studia_MyApps\RSO\wcf\App\wcfApp\MyService\bin\Debug\MyService.dll
+C:\Studia_MyApps\RSO\wcf\App\wcfApp\MyService\bin\Debug\MyService.pdb
+C:\Studia_MyApps\RSO\wcf\App\wcfApp\MyService\obj\Debug\MyService.csprojResolveAssemblyReference.cache
+C:\Studia_MyApps\RSO\wcf\App\wcfApp\MyService\obj\Debug\MyService.dll
+C:\Studia_MyApps\RSO\wcf\App\wcfApp\MyService\obj\Debug\MyService.pdb
